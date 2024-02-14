@@ -1,0 +1,9 @@
+/* assets/custom.css */
+.custom-button-height {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+/* Add left padding to the table/container */
+.custom-padding-left {
+    padding-left: 20pt; /* Adjust as needed */
+}

@@ -1,0 +1,27 @@
+IOCs:
+  - name: Heartbeat
+    command: 
+  - name: Trinamic_motor_controller
+    command: echo "Running IOC1"
+  - name: Copper_Xray_generator
+    command: echo "Starting XG1"; sleep 200; echo "Running IOC2"
+  - name: Molybdenum_Xray_generator
+    command: sleep 200; echo "Running IOC3"
+  - name: Omron_PID_1
+    command: sleep 200; echo "Running IOC4"
+  - name: Harvard_Syringepump_1
+    command: sleep 200; echo "Running IOC5"
+  - name: Harvard_Syringepump_2
+    command: sleep 200; echo "Running IOC6"
+  - name: Harvard_Syringepump_1_GUI
+    command: sleep 200; echo "Running IOC5"
+  - name: Harvard_Syringepump_2_GUI
+    command: sleep 200; echo "Running IOC6"
+  - name: Arduino_environmental_monitor
+    command: sleep 200; echo "Running IOC7"
+  - name: Peristaltic_pump
+    command: sleep 200; echo "Running IOC8"
+  - name: Lauda_bath
+    command: sleep 200; echo "Running IOC9"
+  - name: hotplate
+    command: sleep 200; echo "Running IOC10"  
